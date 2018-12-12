@@ -1,13 +1,16 @@
 package com.java4s.model;
 
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class Customer {
-	
-	private int custNo;
-	private String name;
-	private String country;
+	 @XmlElement(name="Cust-no")
+	 int custNo;
+	 @XmlElement(name="name1")
+	 String name;
+	 @XmlElement(name="country1")
+	 String country;
 	
 	public Customer() {
 		
