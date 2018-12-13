@@ -1,7 +1,5 @@
-/* 
- * Author ::. Sivateja Kandula | www.java4s.com 
- *
- */
+
+
 
 package com.java4s.app;
 
